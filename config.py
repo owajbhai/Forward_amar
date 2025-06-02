@@ -5,7 +5,7 @@ class Config:
     
     API_ID = environ.get("API_ID", "23621595")
     API_HASH = environ.get("API_HASH", "de904be2b4cd4efe2ea728ded17ca77d")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "7736867939:AAGTuiBdoyM1zfs9alpLI51p5MiBhRUDqeA") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "7692381687:AAEqmbwW1I1zA8aDUuPb0kcY2GkiTJVfu3E") 
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '1249672673').split()]
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
 
